@@ -1,36 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1 { text-align: center;
-	font-family: "arial"
+h2 {text-align: center;
+	text-style: "Playfair Display";
 }
 
-h4 {text-align: center;
-font-family: "arial";
-text-decoration: underline;
-font-weight: 100;
+.top-bar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }
 
-nav {
-	background:gray;
-	height: 50px;
-	padding: 10px;
+.menu {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
 }
 
-a {
-	color: white;
-    padding: 25px;
-    text-decoration: none	
+<!--
+body {
+    margin: 0;
 }
 
-h2 {font-family: "arial"}
-
-
-
-
-
-
-
-
+.full-width-line {
+    width: 100vw; /* 100% of the viewport width */
+    border: none;
+    height: 2px; /* You can adjust the height as needed */
+    background-color: black; /* Change the color if necessary */
+}
 
 
