@@ -1,33 +1,72 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*navn*/
 h2 {text-align: center;
 	text-style: "Playfair Display";
 }
 
-.top-bar {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.menu {
-	display: flex;
-	flex-direction: row;
-	list-style: none;
-}
-
-<!--
-body {
-    margin: 0;
-}
-
+/* Lingen gennem hele side */
 .full-width-line {
     width: 100vw; /* 100% of the viewport width */
     border: none;
     height: 2px; /* You can adjust the height as needed */
-    background-color: black; /* Change the color if necessary */
+    background-color: #aaaaaa; /* Change the color if necessary */
 }
 
+/* Style for the menu */
+body {
+	display: contents;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+ ul {
+   list-style: none;
+   padding: 0;
+   text-align: center;
+   
+}
 
+li {
+  display: inline-block;
+  margin-right: 20px;
+  position: center;
+  border: 5px solid #aaaaa;
+  padding: 5px 10px;
+}
+
+/*text color */
+li a {
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #aaaaa;
+  padding: 5px 10px;
+}
+
+/* Dropdown menu style */
+.dropdown {
+    display: none;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    top: 100%;
+    background: #fffff;
+    border: 5px solid #ccc;	
+}
+
+li:hover .dropdown {
+   display: block;
+}
+
+.dropdown li {
+    display: block;
+    margin: 0;
+}
+
+.dropdown li a {
+    color: #aaa;
+    padding: 8px 20px;
+    display: block;
+}
