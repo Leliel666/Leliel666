@@ -14,59 +14,32 @@ h2 {text-align: center;
     background-color: #aaaaaa; /* Change the color if necessary */
 }
 
-/* Style for the menu */
+table, th, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  padding: 15px;
+}
+
+tr {
+  padding: 15px; /* Set padding inside the table cells */
+  border: 0px solid #fff; /* Border around the cells */
+}
+
+/* Style for the container */
+.image-container {
+      display: flex;
+      justify-content: space-between;
+      /* or justify-content: space-around; */
+        }
+
 body {
-	display: contents;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	margin: 0;
-}
- ul {
-   list-style: none;
-   padding: 0;
-   text-align: center;
-   
-}
-
-li {
-  display: inline-block;
-  margin-right: 20px;
-  position: center;
-  border: 5px solid #aaaaa;
-  padding: 5px 10px;
-}
-
-/*text color */
-li a {
-  text-decoration: none;
-  color: #000;
-  border: 1px solid #aaaaa;
-  padding: 5px 10px;
-}
-
-/* Dropdown menu style */
-.dropdown {
-    display: none;
-    position: absolute;
-    padding: 0;
-    left: 0;
-    top: 100%;
-    background: #fffff;
-    border: 5px solid #ccc;	
-}
-
-li:hover .dropdown {
-   display: block;
-}
-
-.dropdown li {
-    display: block;
-    margin: 0;
-}
-
-.dropdown li a {
-    color: #aaa;
-    padding: 8px 20px;
-    display: block;
+    background-image: url('../plain-white-background-cnw05vrcsznafb3o.jpg'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: keeps the background fixed while scrolling */
+    /* You can add more styles or content here */
 }
