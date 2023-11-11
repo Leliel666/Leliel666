@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*navn*/
+h2 {text-align: center;
+	text-style: "Playfair Display";
+}
+
+/* Lingen gennem hele side */
+.full-width-line {
+    width: 100vw; /* 100% of the viewport width */
+    border: none;
+    height: 2px; /* You can adjust the height as needed */
+    background-color: #aaaaaa; /* Change the color if necessary */
+}
+
+/* Style for the container */
+.image-container {
+      display: flex;
+      justify-content: space-between;
+      /* or justify-content: space-around; */
+        }
+
+body {
+    background-image: url('Images/plain-white-background-cnw05vrcsznafb3o.jpg'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: keeps the background fixed while scrolling */
+    /* You can add more styles or content here */
+}
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		width: 50%;
+		margin: 0 auto;
+	}
+	
+	class.dropdown {
+            width: 30%;
+            height: 50px;
+            border: 1px solid black;
+		    align-content: center;
+        }
+p {text-align: center}
+
+div id links {
+    width: 1000px;
+    height: 1000px;
+    
+    text-align: center;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
