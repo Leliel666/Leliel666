@@ -3,8 +3,8 @@
 
 /*navn*/
 h2 {text-align: center;
-	text-style: "Playfair Display";
 }
+
 
 /* Lingen gennem hele side */
 .full-width-line {
@@ -29,16 +29,30 @@ body {
     /* You can add more styles or content here */
 }
 
-	.container {
+.container {
 		display: flex;
 		justify-content: space-between;
 		width: 50%;
 		margin: 0 auto;
 	}
 	
-	class.dropdown {
+class.dropdown {
             width: 30%;
             height: 50px;
             border: 1px solid black;
 		    align-content: center;
         }
+p {text-align: center}
+
+div id links {
+    width: 1000px;
+    height: 1000px;
+    
+    text-align: center;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
